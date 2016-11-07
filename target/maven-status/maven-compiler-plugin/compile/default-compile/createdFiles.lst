@@ -1,0 +1,7 @@
+com/hn/bean/Book.class
+com/hn/service/impl/UserServiceImpl.class
+com/hn/control/SigninAction.class
+com/hn/service/UserService.class
+com/hn/bean/Product.class
+com/hn/control/HomeAction.class
+com/hn/bean/User.class
