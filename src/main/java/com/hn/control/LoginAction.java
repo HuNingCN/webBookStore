@@ -19,7 +19,7 @@ public class LoginAction {
 	
 	@RequestMapping("signin/toSignin.action")
 	public String toSigin(){
-		return "signin/login";
+		return "signin/signin";
 	}
 	
 	@RequestMapping("signin/signin.action")

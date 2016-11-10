@@ -1,0 +1,97 @@
+body {
+  min-height: 2000px;
+}
+
+.navbar-static-top {
+  margin-bottom: 0px;
+  height: 20px;
+  background-image: url(../img/nav.jpeg);
+  background-size:100% 100%;
+}
+
+/*
+ * 
+ * --------------------------------------------------
+ */
+.navbar-hn {
+  margin-bottom: 10px;
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+.nva-hn-item {
+  position: relative;
+  display: inline-block;
+  float: right;
+  padding: 8px 8px 8px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.nva-hn-item:hover,
+.nva-hn-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+/* Active state gets a caret at the bottom */
+.nva-hn .active {
+  color: #fff;
+}
+.nva-hn .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+.container {
+	padding-top: 15px;
+    width: 1200px;
+    max-width: none !important;
+}
+.container-serach2 {
+	width: 1200px;
+	max-width: none !important;
+	padding-top: 15px;
+	padding-left: 130px;
+}
+
+.img-hn1 {
+  display: inline-block;
+  max-width: 100%;
+  height: 240px;
+  padding: 1px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.img-hn2 {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.jumbotron-hn2 {
+  width: 870px;
+  padding: 0px 15px 0px;
+  margin-bottom: 30px;
+  color: inherit;
+}
+
+.shoppingcart {
+  float: right;
+  padding-right: 180px;
+}
+
+.form-control {
+	width: 100%;
+}
